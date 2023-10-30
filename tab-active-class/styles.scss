@@ -42,3 +42,11 @@ body {
     border: 1px solid #ccc;
     border-top: none;
 }
+
+.content-container > div {
+    display: none;
+}
+
+.content-container > div.visible {
+    display: block;
+}
